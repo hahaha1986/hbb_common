@@ -38,7 +38,7 @@ pub const READ_TIMEOUT: u64 = 18_000;
 pub const REG_INTERVAL: i64 = 15_000;
 pub const COMPRESS_LEVEL: i32 = 3;
 const SERIAL: i32 = 3;
-const PASSWORD_ENC_VERSION: &str = "Qwer112211";
+const PASSWORD_ENC_VERSION: &str = "00";
 pub const ENCRYPT_MAX_LEN: usize = 128; // used for password, pin, etc, not for all
 
 #[cfg(target_os = "macos")]
@@ -100,8 +100,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["hk.tazhi.de"];
-pub const RS_PUB_KEY: &str = "JFDv4Dn0ybovhkBKmRiSQib1XqeEwlqTbs0sQ1TWZVM=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["a.tazhi.de"];
+pub const RS_PUB_KEY: &str = "SH4rRvuEvR7ZkHLeV9dxMw0jIkjSTmdXOM9AyYoJm5Y=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
